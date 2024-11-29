@@ -466,11 +466,6 @@ MOTION_QUEUE (as defined in an [extruder](Config_Reference.md#extruder)
 config section). If MOTION_QUEUE is an empty string then the stepper
 will be desynchronized from all extruder movement.
 
-#### GET_MAX_EXTRUDER_VELOCITY
-`GET_MAX_EXTRUDER_VELOCITY EXTRUDER=<name>`: Will print the current
-settings for maximum extruder velocity and the corresponding value
-for max volumetric speed.
-
 ### [fan_generic]
 
 The following command is available when a
